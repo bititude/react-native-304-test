@@ -3,6 +3,7 @@ import {SafeAreaView, Text, View} from 'react-native';
 
 function App(): React.JSX.Element {
   const [status, setStatus] = React.useState(' status is loading...');
+
   const url =
     'https://drope-staging-files.s3.ap-south-1.amazonaws.com/profile_pics/adcb0931-cf29-425c-9196-7e0e242e822f.jpg';
   const headers = {
